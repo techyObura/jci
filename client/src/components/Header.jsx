@@ -130,7 +130,7 @@ const Header = () => {
             onHover || isSidebarOpen || scrollTop ? "text-gold" : "text-navy"
           } font-roboto font-bold text-2xl text-nowrap whitespace-nowrap lg:text-4xl text-center flex justify-center items-center`}
         >
-          <h1 className=" text-center"> JCI KENYA</h1>
+          <h1 className=" text-center ml-4"> JCI KENYA</h1>
         </div>
         <div className="w-[70%] lg:w-[80%] hidden lg:flex justify-center items-center h-full">
           <ul
