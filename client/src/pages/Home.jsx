@@ -5,7 +5,7 @@ import HomeB from "../components/HomeB";
 
 const Home = () => {
   return (
-    <div>
+    <div className=" mb-[500px] lg:mb-[100px]">
       <div className="">
         <Hero />
         <HomeB />

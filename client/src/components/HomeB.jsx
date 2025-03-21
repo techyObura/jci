@@ -4,8 +4,8 @@ import images from "../images/images";
 const HomeB = () => {
   return (
     <div className="">
-      <div className="mt-10 lg:mt-0 lg:flex h-[50vh] justify-center w-full">
-        <div className=" w-[90%] lg:w-[40%] h-full lg:mt-10">
+      <div className="mt-10 lg:mt-0 lg:flex h-[50vh] object-cover justify-center w-[100vw]">
+        <div className=" w-[95%] lg:w-[40%] h-full lg:mt-10">
           <img src={images.kenya} className="w-full h-full" alt="JCI Kenya" />
         </div>
         <div className=" w-full lg:w-[20%] mt-8 lg:h-full flex justify-center items-center">
