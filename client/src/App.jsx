@@ -15,6 +15,7 @@ import Blogs from "./pages/media/Blogs";
 import Register from "./pages/get_involved/Register";
 import Donate from "./pages/get_involved/Donate";
 import Contact from "./pages/get_involved/Contact";
+import NoPage from "./pages/NoPage";
 
 const App = () => {
   return (
