@@ -16,10 +16,12 @@ import Register from "./pages/get_involved/Register";
 import Donate from "./pages/get_involved/Donate";
 import Contact from "./pages/get_involved/Contact";
 import NoPage from "./pages/NoPage";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/national_board" element={<National_Board />} />

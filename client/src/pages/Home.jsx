@@ -6,7 +6,6 @@ import HomeB from "../components/HomeB";
 const Home = () => {
   return (
     <div>
-      <Header />
       <div className="">
         <Hero />
         <HomeB />
