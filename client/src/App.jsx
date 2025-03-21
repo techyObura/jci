@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import National_Board from "./pages/about_us/National_Board";
 import Local_Organizations from "./pages/about_us/Local_Organizations";
@@ -35,6 +35,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   );
