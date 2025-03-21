@@ -17,6 +17,7 @@ import Donate from "./pages/get_involved/Donate";
 import Contact from "./pages/get_involved/Contact";
 import NoPage from "./pages/NoPage";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
